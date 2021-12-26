@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 60vw;
+  min-height: 70vh;
+  background: #fff;
+  box-shadow: -10px 20px 20px 0px rgba(0, 0, 0, 0.041);
+  padding: 6vh 3vw;
+}
+
+.icon-list {
+  width: 100%;
+  display: flex;
+}
+
+.icon-list i {
+  cursor: pointer;
+  color: #a3a3a3;
+  transition: 0.5s color;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.icon-list i:first-of-type {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.icon-list i:last-of-type {
+  margin-left: auto;
+}
+
+.icon-list i:hover {
+  color: #1d1d1d;
+}
+
+.editor {
+  margin-top: 4vh;
+  width: 100%;
+  font: 1rem "Poppins";
+  color: #1d1d1d;
+  padding: 10vh 0;
+}
+
+.editor ul {
+  margin-left: 1.5rem;
+}
+
+.quotation {
+  display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  width: 70%;
+}
+
+.quotation div {
+  height: 5rem;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  margin-left: 1.5rem;
+}
+
+.quotation i {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.line {
+  background: #1d1d1d;
+  width: 2%;
+}
+
+::marker {
+  color: #1d1d1d;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-button {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a3a3a3;
+  border: 0;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1d1d1d;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0ch;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::selection {
+  background: #a3a3a3;
+  color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    display: block;
+  }
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    padding: 5vh 7vw;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .container {
+    min-height: unset;
+    padding: 5vh 3vw 20vh;
+  }
+}
