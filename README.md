@@ -25,4 +25,4 @@ A simple text editor with the following features:
 
 #### HOW TO USE
 
-> enter in this [link](https://skelclique.github.io/rich-text/src) to view the projetct
+> enter in this [link](https://skelclique.github.io/rich-text/) to view the projetct
