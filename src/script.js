@@ -12,7 +12,7 @@ editor.style.textAlign = 'center';
 editor.innerHTML = defaultText;
 
 function switchEditable(condition) {
-  editor.contentEditable = `${condition}`;
+  editor.contentEditable = condition;
 }
 
 document.querySelectorAll('i').forEach((item, index) => {
