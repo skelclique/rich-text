@@ -1,9 +1,8 @@
 ### RICH TEXT
-
-![](https://skelclique.github.io/rich-text/assets/logo.png)
-
 created by [skelclique](https://github.com/skelclique)
-  
+
+![](https://skelclique.github.io/rich-text/assets/logo.png)  
+
 #### DESCRIPTION
 
 A simple text editor with the following features:  
