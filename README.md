@@ -1,4 +1,4 @@
-## RICH TEXT
+# RICH TEXT
 created by [skelclique](https://github.com/skelclique)
   
 #### DESCRIPTION
@@ -26,4 +26,4 @@ A simple text editor with the following features:
 #### HOW TO USE
 
 > enter in this [🔗](https://skelclique.github.io/rich-text/) to view the project
----
+
