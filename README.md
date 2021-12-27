@@ -27,3 +27,4 @@ A simple text editor with the following features:
 
 > enter in this [🔗](https://skelclique.github.io/rich-text/) to view the project
 
+![](https://skelclique.github.io/rich-text/assets/logo.png)
