@@ -1,4 +1,4 @@
-### RICH TEXT
+# RICH TEXT
 created by [skelclique](https://github.com/skelclique)
 
 ![](https://skelclique.github.io/rich-text/assets/logo.png)  
